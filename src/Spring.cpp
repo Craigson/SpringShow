@@ -40,7 +40,8 @@ void Spring::update(){
 void Spring::render(){
     gl::enableAlphaBlending();
     gl::color( ci::ColorA(1.f,1.f,1.f, 0.05f) );
-    gl::lineWidth(0.50);
+    gl::lineWidth(0.10);
+    gl::enable(GL_LINE_SMOOTH);
     gl::drawLine(from->mLoc, to->mLoc);
 }
 

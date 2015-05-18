@@ -119,7 +119,7 @@ void FabricTerrainApp::draw()
 }
 
 void FabricTerrainApp::repel(Node *tempNode){
-    vec3 diff = to->mLoc - from->mLoc;
+   // vec3 diff = to->mLoc - from->mLoc;
 
 }
 

@@ -36,7 +36,8 @@ void Node::render(){
     gl::color(ColorA(1.,1.,1.,1.));
     gl::pointSize(2.);
     gl::vertex(mLoc);
-    gl::drawSphere(mLoc, 5);
+    gl::drawSphere(mLoc, 1);
+   // gl::drawSolidRect(Rectf()
 }
 
 float Node::getX(){
